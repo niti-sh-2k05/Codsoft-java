@@ -9,8 +9,6 @@ public class Number_Game {
         int rndnumber = (int) (randomdble * 100) + 1;
         
         for(int i=0;i<5;i++){
-         
-
         Scanner inp=new Scanner(System.in);
         int guess=inp.nextInt();
         
@@ -22,11 +20,11 @@ public class Number_Game {
         }
         else if(guess == rndnumber){
             System.out.println("Congrats You Won!");
+            break;
         }
-         
-        
-
+       
     }
+    
     System.out.println("The Random Number is:"+rndnumber);
 }
 }
